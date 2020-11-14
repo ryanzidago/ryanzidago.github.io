@@ -4,7 +4,7 @@ title:  "Today I learned how to use a checksum to verify the integrity of a file
 date:   2020-11-14 17:30:00 +0100
 categories: security
 ---
-## What are checksums and sha256, and how does they relate with each other?
+## What are checksums and sha256, and how do they relate with each others?
 
 As I was looking for the latest stable [Ruby release](https://www.ruby-lang.org/en/downloads/) at the time of this writing, I noticed a checksum was provided, but I still did not know what to do with it.
 
