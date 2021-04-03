@@ -18,7 +18,7 @@ fn queue_time(customers: Vec<i32>, n: i32) -> i32 {
 }
 ```
 
-Now, we need to create has many elements in the heap as there are checkouts. So if there is 5 checkouts, then our heap will contains 5 node. We will then later add customers' time to those nodes:
+Now, we need to create as many elements in the heap as there are checkouts. So if there is 5 checkouts, then our heap will contains 5 node. We will then later add customers' time to those nodes:
 
 ```rust
 use std::cmp::Reverse;
