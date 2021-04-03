@@ -34,7 +34,7 @@ fn queue_time(customers: Vec<i32>, n: i32) -> i32 {
 ```
 
 Let's iterate over every customer's time and add their respective time to the fastest checkout. We do this by:
-- popping the root node of the checkouts heap (which is in our case, the node with the smallest value),
+- popping the root node of the checkouts heap (which is in our case, the node with the smallest value, i.e. the fastest checkout/the checkout with the least amount of customers' time),
 - add the customer's time to the checkout's time
 - push the new checkout's time (that includes the customer's time) to the min heap (if this checkout's time is not the smallest checkout's time anymore, another node with the smallest value will become the root node)
 
