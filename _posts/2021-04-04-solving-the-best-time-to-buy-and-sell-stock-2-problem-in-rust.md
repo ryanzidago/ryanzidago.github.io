@@ -1,6 +1,6 @@
 The problem statement can be found [here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/).
 
-The difference between this problem and the one that we [previously solved](solving-the-best-time-to-buy-and-sell-stock-1-problem-in-rust.html) is that here, we can buy and sell more than one stock. We still cannot engage in simultaneous transactions, but we can sell a stock on one day and buy it on the same day.
+The difference between this problem and the one that we [previously solved](https://ryanzidago.github.io/2021/04/04/solving-the-best-time-to-buy-and-sell-stock-1-problem-in-rust.html) is that here, we can buy and sell more than one stock. We still cannot engage in simultaneous transactions, but we can sell a stock on one day and buy it on the same day.
 
 Let's take the following stock prices:
 ```
