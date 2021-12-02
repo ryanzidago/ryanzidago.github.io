@@ -15,5 +15,5 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.15.1'
   gem 'jekyll-seo-tag', '~> 2.7'
-  gem 'github-pages', '~> 214'
+  gem 'github-pages', '~> 222'
 end
